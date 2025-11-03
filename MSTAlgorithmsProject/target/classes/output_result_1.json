@@ -1,0 +1,61 @@
+{
+    "prim": {
+        "mst_edges": [
+            {
+                "weight": 3,
+                "from": "A",
+                "to": "C"
+            },
+            {
+                "weight": 4,
+                "from": "A",
+                "to": "B"
+            },
+            {
+                "weight": 5,
+                "from": "B",
+                "to": "D"
+            },
+            {
+                "weight": 6,
+                "from": "D",
+                "to": "E"
+            }
+        ],
+        "total_cost": 18,
+        "execution_time_ms": 4,
+        "operations_count": 6
+    },
+    "input_stats": {
+        "vertices": 5,
+        "edges": 7
+    },
+    "kruskal": {
+        "mst_edges": [
+            {
+                "weight": 2,
+                "from": "B",
+                "to": "C"
+            },
+            {
+                "weight": 3,
+                "from": "A",
+                "to": "C"
+            },
+            {
+                "weight": 5,
+                "from": "B",
+                "to": "D"
+            },
+            {
+                "weight": 6,
+                "from": "D",
+                "to": "E"
+            }
+        ],
+        "total_cost": 16,
+        "execution_time_ms": 1,
+        "operations_count": 7
+    },
+    "graph_id": 1
+}
